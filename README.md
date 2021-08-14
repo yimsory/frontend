@@ -72,3 +72,20 @@ a : anchor
 > - IP(Internet Protocol) : 숫자로 구성된 주소(192.168.0.1)
 > - Domain Name : www.naver.com / DNS(Domain Name Server)
 > - Ex) blog.naver.com/blog/12345 => URL
+
+### HTML File 경로
+
+https://www.w3schools.com/html/html_filepaths.asp
+
+절대 vs 상대
+- 경로 위치 표시 방식
+- 경로 표시의 기준의 변경 여부
+- 절대 경로 방식
+- Ex) 대한민국 서울특별시 서초구 ~동 대호빌딩 803호
+- -출발지 위치에 상관없이 항상 찾아갈 수 있도록 표시
+- Ex) 도메인주소/상세경로=> httts://www.naver.com/blog/image.jpg
+- 
+- 상대 경로 방식
+- Ex) 강남역 12번출구에서 3분 대호빌딩
+- 출발지 위치를 기준으로 표시
+- Ex) 상세경로 => /blog/image.jpg || image.jpg
