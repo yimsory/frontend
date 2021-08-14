@@ -71,4 +71,4 @@ a : anchor
 > 인터넷 주소
 > - IP(Internet Protocol) : 숫자로 구성된 주소(192.168.0.1)
 > - Domain Name : www.naver.com / DNS(Domain Name Server)
-> - Ex) blog.naver.com/blog/12345 => 
+> - Ex) blog.naver.com/blog/12345 => URL
