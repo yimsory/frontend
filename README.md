@@ -50,3 +50,9 @@ https://www.w3schools.com/html/html_elements.asp
 ### HTML Attreibute
 
 https://www.w3schools.com/html/html_attributes.asp
+
+### Headings
+
+https://www.w3schools.com/html/html_headings.asp
+
+h1 ~ h6 : 제목태그(h -> heading)
