@@ -56,3 +56,7 @@ https://www.w3schools.com/html/html_attributes.asp
 https://www.w3schools.com/html/html_headings.asp
 
 h1 ~ h6 : 제목태그(h -> heading)
+
+### HTML Paragragh
+
+https://www.w3schools.com/html/html_paragraphs.asp
