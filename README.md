@@ -99,3 +99,15 @@ https://www.w3schools.com/html/html_lists.asp
 https://www.w3schools.com/html/html_tables.asp
 
 table generator : https://www.tablesgenerator.com/
+
+### HTML Images
+https://www.w3schools.com/html/html_images.asp
+
+alt : alternative
+
+### HTML Video
+https://www.w3schools.com/html/html5_video.asp
+
+### HTML YouTube
+https://www.w3schools.com/html/html_youtube.asp
+
