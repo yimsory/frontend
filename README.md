@@ -150,3 +150,107 @@ https://www.w3schools.com/html/html_classes.asp
 >
 > - class로 붙여주는 이름은 한 HTML 문서내에서 여러번 중복 사용할 수 있음.
 > - class는 한 대상의 HTML Element에 여러개의 이름을 지정할 수 있음.
+
+### CSS 상속
+
+> 부모요소에 적용된 CSS 속성이 자식요소에 적용되는것
+
+### CSS Text
+
+https://www.w3schools.com/css/css_text.asp
+
+> - color
+> - text-align
+> - text-decoration
+> - letter-spacing
+> - line-height
+
+### CSS Font
+
+https://www.w3schools.com/css/css_font.asp
+
+> Web Font
+
+> 웹에서 사용하는 폰트는 브라우저에서 랜더링되기 때문에 기존에는 사용자 PC에 설치되어 있는 폰트를 사용
+>
+> 사용자 pc에 설치된 폰트를 찾지 않고 서버에 폰트를 저장해서 사용하는 방식 => 웹폰트 방식
+>
+> 웹폰트 서비스
+>
+> - 구글 폰트(영문/한글) : https://fonts.google.com/
+> - 눈누 폰트(한글) : https://noonnu.cc/
+
+> font-family
+>
+> - 항상 폰트 목록끝에 기본 폰트 이름을 입력해야 함.
+> - 고딕 : sans-serif / 명조 : serif
+>
+> font-size
+>
+> font-style:italic
+>
+> font-weight
+>
+> - 100,200,300 ... : 숫자로 표시
+
+### Box Model
+
+https://www.w3schools.com/css/css_boxmodel.asp
+
+> - Content(width/height) : 콘텐츠의 너비 또는 높이
+> - Padding : 안쪽 여백
+> - Border : 테두리
+> - Margin : 바깥 여백
+
+### Height / Width
+
+> - 클릭요소의 가로길이/세로길이 적용시
+> - auto : 요소의 기본 특성을 따라감 / defaut 값 : 적용하지 않은 상태와 같음
+> - px : px 값으로 고정
+> - % : 부모요소를 기준으로 특정 비율만큼 설정
+> - 인라인 요소에 가로길이/세로길이는 적용되지 않음
+
+### Padding
+
+> - padding-top / padding-right / padding-bottom / padding-left
+> - padding : 10px 20px 30px 40px;
+> - padding : 10px 20px 30px;
+> - padding : 10px 20px;
+> - padding : 10px;
+
+### Margin
+
+> - 마진 겹침 : 박스가 상하배치 되어있을 때 사이 마진이 한쪽만 적용되는 현상
+>
+> - 두 박스 모두 마진 적용하지 않고 한 쪽에만 마진을 적용
+
+### Border
+
+> - boder : 1px solid red;
+>
+> border-top / border-right / border-bottom / border-left
+
+### Background
+
+https://www.w3schools.com/css/css_background.asp
+
+> background-color
+>
+> background-image:url()
+
+### Color 표현방식
+
+> - RGB : - 가산혼합
+> - 스크린에서 color 표현
+>
+> - CMYK : cyan magenta yellow black - 감산혼합
+> - 프린터에서 color 표현
+
+> color 코드값
+>
+> - 10진수 표현 : rgb(255, 255, 255)
+> - 16진수 표현 : #1a9cf0
+
+### Box-sizing
+
+> - box-sizing:border-box; => width/height가 박스의 전체 길이가 됨

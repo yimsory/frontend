@@ -5,88 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header></header>
     <h1><img src="images/logo.png" alt="" /></h1>
-    <nav>
-      <ul>
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>CONTACT</li>
+    <!-- gnb : Global Navigation Bar -->
+    <!-- lnb : Local Navigation Bar -->
+    <nav class="gnb">
+      <ul class="gnb-list">
+        <li class="gnb-item"><a href="" class="gnb-link">HOME</a></li>
+        <li class="gnb-item"><a href="" class="gnb-link">ABOUT</a></li>
+        <li class="gnb-item"><a href="" class="gnb-link">CONTACT</a></li>
       </ul>
     </nav>
-    <section>
-      <h2>UI/UX & Graphic Desiner</h2>
-      <p>
+    <section class="section01">
+      <h2 class="section-heading">UI/UX & Graphic Desiner</h2>
+      <p class="section-paragraph">
         This template has a minimal and modern look and provides great
         flexibility: that makes it suitable for designers, photographers, web
         agencies
       </p>
     </section>
-    <section>
-      <div>
-        <figure>
-          <img src="images/image_01.jpg" alt="" />
+    <section class="section02">
+      <div class="group">
+        <figure class="figure">
+          <img src="images/image_01.jpg" alt="" class="figure-img" />
         </figure>
-        <figure>
-          <img src="images/image_02.jpg" alt="" />
+        <figure class="figure">
+          <img src="images/image_02.jpg" alt="" class="figure-img" />
         </figure>
-        <figure>
-          <img src="images/image_03.jpg" alt="" />
-        </figure>
-        <figure>
-          <video autoplay multed loop>
-            <source src="videos/mov_bbb.mp4" type="video/mp4" />
-          </video>
-        </figure>
-      </div>
-      <div>
-        <figure>
-          <img src="images/image_04.jpg" alt="" />
+        <figure class="figure">
+          <img src="images/image_03.jpg" alt="" class="figure-img" />
         </figure>
         <figure>
           <video autoplay multed loop>
-            <source src="videos/rain.mp4" type="video/mp4" />
+            <source
+              src="videos/mov_bbb.mp4"
+              type="video/mp4"
+              class="figure-video"
+            />
+          </video>
+        </figure>
+      </div>
+      <div class="group">
+        <figure class="figure">
+          <img src="images/image_04.jpg" alt="" class="figure-img" />
+        </figure>
+        <figure>
+          <video autoplay multed loop>
+            <source
+              src="videos/rain.mp4"
+              type="video/mp4"
+              class="figure-video"
+            />
           </video>
         </figure>
         <figure>
-          <img src="images/image_05.jpg" alt="" />
+          <img src="images/image_05.jpg" alt="" class="figure-img" />
         </figure>
         <figure>
-          <img src="images/image_06.jpg" alt="" />
+          <img src="images/image_06.jpg" alt="" class="figure-img" />
         </figure>
       </div>
-      <div>
-        <figure>
-          <img src="images/image_07.jpg" alt="" />
+      <div class="group">
+        <figure class="figure">
+          <img src="images/image_07.jpg" alt="" class="figure-img" />
         </figure>
         <figure>
-          <img src="images/image_08.jpg" alt="" />
+          <img src="images/image_08.jpg" alt="" class="figure-img" />
         </figure>
         <figure>
-          <img src="images/image_09.jpg" alt="" />
+          <img src="images/image_09.jpg" alt="" class="figure-img" />
         </figure>
         <figure>
-          <img src="images/image_10.jpg" alt="" />
+          <img src="images/image_10.jpg" alt="" class="figure-img" />
         </figure>
       </div>
     </section>
-    <footer>
-      <div>
+    <footer class="footer">
+      <div class="footer-copyright-heading">
         <div>Piroll Design, Inc.</div>
         <div>2021 Piroll. All right reserved</div>
       </div>
-      <div>
-        <ul>
-          <li>Projects</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Carreer</li>
-          <li>News</li>
-          <li>Events</li>
-          <li>Contact</li>
-          <li>Legal</li>
+      <div class="footer-copyright-text">
+        <ul class="footer-copyright-list">
+          <li class="footer-copyright-item">Projects</li>
+          <li class="footer-copyright-item">About</li>
+          <li class="footer-copyright-item">Services</li>
+          <li class="footer-copyright-item">Carreer</li>
+          <li class="footer-copyright-item">News</li>
+          <li class="footer-copyright-item">Events</li>
+          <li class="footer-copyright-item">Contact</li>
+          <li class="footer-copyright-item">Legal</li>
         </ul>
       </div>
     </footer>
