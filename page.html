@@ -14,23 +14,24 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header></header>
-    <h1><img src="images/logo.png" alt="" /></h1>
-    <!-- gnb : Global Navigation Bar -->
-    <!-- lnb : Local Navigation Bar -->
-    <nav class="gnb">
-      <ul class="gnb-list">
-        <li class="gnb-item"><a href="" class="gnb-link">HOME</a></li>
-        <li class="gnb-item"><a href="" class="gnb-link">ABOUT</a></li>
-        <li class="gnb-item"><a href="" class="gnb-link">CONTACT</a></li>
-      </ul>
-    </nav>
+    <header class="header">
+      <h1 class="logo"><img src="images/logo.png" alt="" /></h1>
+      <!-- gnb : Global Navigation Bar -->
+      <!-- lnb : Local Navigation Bar -->
+      <nav class="gnb">
+        <ul class="gnb-list">
+          <li class="gnb-item"><a href="" class="gnb-link">HOME</a></li>
+          <li class="gnb-item"><a href="" class="gnb-link">ABOUT</a></li>
+          <li class="gnb-item"><a href="" class="gnb-link">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
     <section class="section01">
-      <h2 class="section-heading">UI/UX & Graphic Desiner</h2>
+      <h2 class="section-heading">UI/UX & Graphic Designer</h2>
       <p class="section-paragraph">
-        This template has a minimal and modern look and provides great
-        flexibility: that makes it suitable for designers, photographers, web
-        agencies
+        2004년 7월 Web Hypertext Application Technology Working
+        Group(WHATWG)에서 웹 애플리케이션 1.0이라는 이름으로 세부 명세 작업을
+        시작하였다.
       </p>
     </section>
     <section class="section02">
@@ -44,13 +45,9 @@
         <figure class="figure">
           <img src="images/image_03.jpg" alt="" class="figure-img" />
         </figure>
-        <figure>
-          <video autoplay multed loop>
-            <source
-              src="videos/mov_bbb.mp4"
-              type="video/mp4"
-              class="figure-video"
-            />
+        <figure class="figure">
+          <video autoplay muted loop class="figure-video">
+            <source src="videos/mov_bbb.mp4" type="video/mp4" />
           </video>
         </figure>
       </div>
@@ -58,19 +55,15 @@
         <figure class="figure">
           <img src="images/image_04.jpg" alt="" class="figure-img" />
         </figure>
-        <figure>
-          <video autoplay multed loop>
-            <source
-              src="videos/rain.mp4"
-              type="video/mp4"
-              class="figure-video"
-            />
+        <figure class="figure">
+          <video autoplay muted class="figure-video">
+            <source src="videos/rain.mp4" type="video/mp4" />
           </video>
         </figure>
-        <figure>
+        <figure class="figure">
           <img src="images/image_05.jpg" alt="" class="figure-img" />
         </figure>
-        <figure>
+        <figur class="figure">
           <img src="images/image_06.jpg" alt="" class="figure-img" />
         </figure>
       </div>
@@ -78,33 +71,35 @@
         <figure class="figure">
           <img src="images/image_07.jpg" alt="" class="figure-img" />
         </figure>
-        <figure>
+        <figure class="figure">
           <img src="images/image_08.jpg" alt="" class="figure-img" />
         </figure>
-        <figure>
+        <figure class="figure">
           <img src="images/image_09.jpg" alt="" class="figure-img" />
         </figure>
-        <figure>
+        <figure class="figure">
           <img src="images/image_10.jpg" alt="" class="figure-img" />
         </figure>
       </div>
     </section>
     <footer class="footer">
-      <div class="footer-copyright-heading">
-        <div>Piroll Design, Inc.</div>
-        <div>2021 Piroll. All right reserved</div>
-      </div>
-      <div class="footer-copyright-text">
-        <ul class="footer-copyright-list">
-          <li class="footer-copyright-item">Projects</li>
-          <li class="footer-copyright-item">About</li>
-          <li class="footer-copyright-item">Services</li>
-          <li class="footer-copyright-item">Carreer</li>
-          <li class="footer-copyright-item">News</li>
-          <li class="footer-copyright-item">Events</li>
-          <li class="footer-copyright-item">Contact</li>
-          <li class="footer-copyright-item">Legal</li>
-        </ul>
+      <div class="footer-wrap">
+        <div class="footer-copyright">
+          <div class="footer-copyright-heading">Piroll Design, Inc.</div>
+          <div class="footer-copyright-text">2021 Piroll. All right reserved.</div>
+        </div>
+        <div class="footer-sitemap">
+          <ul class="footer-sitemap-list">
+            <li class="footer-sitemap-item">Projects</li>
+            <li class="footer-sitemap-item">About</li>
+            <li class="footer-sitemap-item">Services</li>
+            <li class="footer-sitemap-item">Carreer</li>
+            <li class="footer-sitemap-item">News</li>
+            <li class="footer-sitemap-item">Events</li>
+            <li class="footer-sitemap-item">Contact</li>
+            <li class="footer-sitemap-item">Legal</li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>

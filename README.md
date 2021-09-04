@@ -254,3 +254,78 @@ https://www.w3schools.com/css/css_background.asp
 ### Box-sizing
 
 > - box-sizing:border-box; => width/height가 박스의 전체 길이가 됨
+
+### CSS Flex
+
+> 박스 레이아웃 구성에 관련된 CSS 속성
+>
+> Flex 적용
+>
+> - display:flex;
+>
+> 부모요소에 적용하는 속성
+>
+> - flex-direction : flex 박스의 배치 방향
+> - justify-content : 가로 방향 정렬
+> - align-items : 세로 방향 정렬
+>
+> 자식요소에 적용하는 속성
+>
+> - flex:1;
+
+### Respinsive Web(반응형 웹)
+
+> 반응형 웹
+>
+> - OSMU(One Source Multiuse)
+> - 한 HTML 페이지에서 다양한 CSS를 통해 PC, Smart phone 레이아웃 구성을 표현
+>
+> - Viewport
+> - Media Query
+>   - break point : 레이아웃이 변경되는 지점
+>   - Ex)
+>   - (320px ~ 640px:s.p)(640px ~ 1024px:t.b)(1025px ~ 1080px:p.c)
+>   - (320px ~ 799:s.p)(800px ~ 1920px:p.c)
+
+```
+@medua screen and(max-width:1920px){
+  - pc style css code -
+}
+
+@medua screen and(max-width:1024px){
+  - tablet style css code -
+}
+
+@medua screen and(max-width:640px){
+  - smartphone style css code -
+}
+```
+
+> - 해상도
+>
+>   - smart phone : 320px ~ 640px
+>   - tablet : 768px ~ 1024px
+>   - pc : 1024px ~ 1920px
+>
+> - Fluid Layout(유동형 레이아웃)
+> - % 단위를 활용해서 부모 요소의 크기가 변경될 때 자식 요소의 크기도 같이 부드럽게 변하도록 하는 레이아웃
+
+### Combinator Selector(조합 선택자)
+
+> 2개 이상의 선택자를 조합해서 사용하는 형태
+
+```
+* 여러개 선택자에 모두 동일한 css 적용
+.name1,.name2
+
+* 여러개 선택자를 동시에 가지고 있는 경우
+.name1,name2 : Element가 class이름을 name1과 name2를 동시에 가지고 있는 경우
+div.name1 : div Element가 name1 클래스 이름을 가지고 있는 경우
+#name1,name2 : id이름이 name1 이면서 클래스 이름이 name2인 경우
+
+* 자손 요소 선택
+.name1 .name2 : 클래스 이름이 name1인 요소의 자손요소 중 클래스 이름이 .name2인 요소를 선택
+
+* 자식 요소 선택
+.name1>.name2 : 클래스 이름이 name1인 요소의 자식요소 중 클래스 이름이 .name2인 요소를 선택
+```
